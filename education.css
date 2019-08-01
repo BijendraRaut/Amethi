@@ -1,0 +1,29 @@
+body{
+	background:url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-05.jpg);
+	background-size: cover;
+}
+img{
+
+	margin:2px;
+	padding-left: 200px;
+	padding-top: 30px; 
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+	color: grey;
+}
+p{
+	text-align: center;
+	font-family:Grenze; 
+	font-size:20px;
+}
+
+h2{
+	font-size: 35px;
+	text-align: center;
+	margin-top: 40px; 
+	text-decoration: underline;
+	color: gray;
+}
