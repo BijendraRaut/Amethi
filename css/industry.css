@@ -1,0 +1,20 @@
+h1{
+	margin-top:0;
+	margin-bottom:70px; 
+	text-align: center;
+	background: url(../image/industry.jpg);
+background-size: cover;
+padding-top: 360px;
+padding-bottom: 230px;
+font-size: 50px;
+}
+p{
+	text-align:center;
+	font-size:20px;
+}
+ol{
+	text-align: center; 
+}
+.singh{
+	font-size:20px;
+}

@@ -1,5 +1,5 @@
 body{
-	background: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-05.jpg);
+	background: url(../image/background.jpg);
 background-size: cover;
 }
 h1{ color: darkorange;
@@ -7,10 +7,10 @@ h1{ color: darkorange;
 	font-size:70px;
 	text-decoration: underline;
 	margin-bottom: 20px;
-	padding-bottom: 200px;
+	padding-bottom: 370px;
 	padding-top: 240px;
 	margin-top: 1px;
-	background:url(https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/05/04/820083-smriti-amethi-shah-pti-1.jpg?itok=PVtfTK1R);
+	background:url(../image/bjp.jpg);
 	background-size: cover;
 }
 p{	margin:40px;
