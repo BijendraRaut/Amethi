@@ -1,75 +1,111 @@
-body{
-	background: url(../image/background.jpg);
-background-size: cover;
-}
-h1{ color: darkorange;
-	text-align: center;
-	font-size:70px;
-	text-decoration: underline;
-	margin-bottom: 20px;
-	padding-bottom: 370px;
-	padding-top: 240px;
-	margin-top: 1px;
-	background:url(../image/bjp.jpg);
-	background-size: cover;
-}
-p{	margin:40px;
-	text-align: center;
-	font-size: 18px;
-	font-family:Grenze;
-	
+body {
+    background: url(../image/background.jpg);
+    background-size: cover;
 }
 
-span{
-		font-size: 1.5em;
-	}
-img{
-	padding-left: 60px;
-	margin: 5px;
-	margin-top:30px;
-}
-ul img{
-	margin-left: 300px;
-}
-ul h2{
-	text-align: center;
-	position: relative;
-	color: red;
-	font-size:30px;
-	text-decoration: underline;
-}
-.anu{
-	
-	}
-.abhi{
-	
-}
-ol{
-	font-size: 20px;
-
-}
-h3{
-	color: #0F7CA2;
-	font-size: 30px;
-	text-align: center;
-
+.nav {
+    position: fixed;
+    top: 0px;
 }
 
-
-ol{
-	left: 630px;
-	position: absolute;
+#header {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 20px;
+    padding-bottom: 370px;
+    padding-top: 240px;
+    margin-top: 1px;
+    background: url(../image/bjp.jpg);
+    background-size: cover;
+    animation: slideshow 10s infinite;
 }
 
-.singh{
-	margin-bottom:20px;
-	padding-bottom:50px;
-}
-.heading{
-	left:50px;
+#header b {
+    padding: 10px 10px 10px 10px;
+    color: white;
+    background-color: darkorange;
 }
 
+p {
+    margin: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Grenze;
+}
 
+span {
+    font-size: 1.5em;
+}
 
+img {
+    padding-left: 60px;
+    margin: 5px;
+    margin-top: 30px;
+}
 
+ul img {
+    margin-left: 300px;
+}
 
+ul h2 {
+    text-align: center;
+    position: relative;
+    color: red;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.anu {}
+
+.abhi {}
+
+ol {
+    font-size: 20px;
+}
+
+h3 {
+    color: #0F7CA2;
+    font-size: 30px;
+    text-align: center;
+}
+
+ol {
+    left: 630px;
+    position: absolute;
+}
+
+.singh {
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+.heading {
+    left: 50px;
+}
+
+@keyframes slideshow {
+    0% {
+        background-size: cover;
+        background: url(../image/bjp.jpg);
+    }
+    20% {
+        background-size: cover;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/ba/Amethi_Railway_Station.jpg);
+    }
+    40% {
+        background-size: cover;
+        background-image: url(https://timesofindia.indiatimes.com/blogs/wp-content/uploads/2019/05/Smriti-Irani-Amethi.jpg);
+    }
+    60% {
+        background-size: cover;
+        background-image: url(https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/05/07/820803-election-amethi-afp-050719.jpg);
+    }
+    80% {
+        background-size: cover;
+        background-image: url(https://media.rahulgandhi.in/images/bhel.jpg);
+    }
+    100% {
+        background-size: cover;
+        background: url(../image/bjp.jpg);
+    }
+}
