@@ -41,3 +41,7 @@ h3{
 	left:35px;
 	position:relative;
 }
+
+ h1:hover, h2:hover {
+  background-color: yellow;
+}
