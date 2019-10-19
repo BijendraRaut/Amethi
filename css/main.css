@@ -12,12 +12,14 @@ body {
     top:0;
     display: flex;
     position: sticky;
-    background: #85f6be;
+    background: #fff;
+    background: url(../image/background.jpg);
+    background-position: bottom;
+    background-size: cover;
 }
 
 .nav-bare {
   margin: auto;
-  /* border: thin solid black; */
   width: 50%;
   min-width: 300px;
   display: flex;
