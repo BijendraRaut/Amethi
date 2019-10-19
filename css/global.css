@@ -1,4 +1,8 @@
-ul.nav {
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -15,15 +19,15 @@ ul.nav {
     float: left;
 }
 
-.nav li a {
-    display: block;
+.nav a {
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.nav li a:hover:not(.active) {
+.nav a:hover:not(.active) {
     background-color: #111;
 }
 
