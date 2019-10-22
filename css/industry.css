@@ -1,13 +1,8 @@
-h1{
-	margin-top:0;
-	margin-bottom:70px; 
-	text-align: center;
-	background: url(../image/industry.jpg);
-background-size: cover;
-padding-top: 360px;
-padding-bottom: 230px;
-font-size: 50px;
+.header__bg h1{ 
+	font-weight: bold;
+	color: darkorange;
 }
+
 p{
 	text-align:center;
 	font-size:20px;

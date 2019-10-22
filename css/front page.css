@@ -1,17 +1,11 @@
 body{
 	background: url(../image/background.jpg);
-background-size: cover;
-}
-h1{ color: darkorange;
-	text-align: center;
-	font-size:70px;
-	text-decoration: underline;
-	margin-bottom: 20px;
-	padding-bottom: 370px;
-	padding-top: 240px;
-	margin-top: 1px;
-	background:url(../image/bjp.jpg);
 	background-size: cover;
+}
+
+.header__bg h1{ 
+	font-weight: bold;
+	color: darkorange;
 }
 p{	margin:40px;
 	text-align: center;

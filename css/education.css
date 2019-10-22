@@ -2,23 +2,19 @@ body{
 	background:url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-05.jpg);
 	background-size: cover;
 }
+
+.header__bg h1{ 
+	font-weight: bold;
+	color: grey;
+}
+
 img{
 
 	margin:2px;
 	padding-left: 200px;
 	padding-top: 30px; 
 }
-h1{ margin-top:1px;
-	margin-bottom:50px; 
-	text-align: center;
-	font-size: 50px;
-	text-decoration: underline;
-	color: grey;
-	padding-top:200px;
-	padding-bottom:380px;
-	background:url(https://pbs.twimg.com/media/DoLZusuVsAAfyMt.jpg);
-	background-size:cover;
-}
+
 p{
 	text-align: center;
 	font-family:Grenze; 
@@ -42,6 +38,6 @@ h3{
 	position:relative;
 }
 
- h1:hover, h2:hover {
+h2:hover {
   background-color: yellow;
 }
