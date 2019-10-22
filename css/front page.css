@@ -1,35 +1,32 @@
 body{
 	background: url(../image/background.jpg);
-background-size: cover;
+	background-size: cover;
 }
-h1{ color: darkorange;
+h1{ 
+	color: #fff;
 	text-align: center;
 	font-size:70px;
-	text-decoration: underline;
-	margin-bottom: 20px;
-	padding-bottom: 370px;
+	text-shadow: 0 1px 10px #000;
+	padding-bottom: 240px;
 	padding-top: 240px;
-	margin-top: 1px;
 	background:url(../image/bjp.jpg);
 	background-size: cover;
 }
-p{	margin:40px;
+p{	
+	margin:40px;
 	text-align: center;
 	font-size: 18px;
 	font-family:Grenze;
-	
 }
-
 span{
-		font-size: 1.5em;
-	}
+	font-size: 1.5em;
+}
 img{
 	max-width: 100%;
 	height: auto;
 	margin: 30px auto;
 	display: block;
 }
-
 ul h2{
 	text-align: center;
 	position: relative;
@@ -37,28 +34,14 @@ ul h2{
 	font-size:30px;
 	text-decoration: underline;
 }
-.anu{
-	
-	}
-.abhi{
-	
-}
 ol{
 	font-size: 20px;
-
 }
 h3{
 	color: #0F7CA2;
 	font-size: 30px;
 	text-align: center;
-
 }
-
-
-ol{
-
-}
-
 .singh{
 	margin-bottom:20px;
 	padding-bottom:50px;
