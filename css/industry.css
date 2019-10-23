@@ -1,16 +1,28 @@
+body{
+	background:url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-05.jpg);
+	background-size: cover;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	margin: 30px auto;
+	display: block;
+}
 h1{
-	margin-top:0;
-	margin-bottom:70px; 
+	color: #fff;
 	text-align: center;
+	font-size:70px;
+	text-shadow: 0 1px 10px #000;
+	padding-bottom: 240px;
+	padding-top: 240px;
 	background: url(../image/industry.jpg);
-background-size: cover;
-padding-top: 360px;
-padding-bottom: 230px;
-font-size: 50px;
+	background-size: cover;
 }
 p{
-	text-align:center;
-	font-size:20px;
+	margin:40px;
+	text-align: center;
+	font-family:Grenze; 
+	font-size:18px;
 }
 ol{
 	text-align: center; 
@@ -23,7 +35,6 @@ ol{
 	margin: 5px;
 	margin-top:30px;
 }
-
 .Sail {
 	padding-left:18%;
 	margin: 5px;
