@@ -1,38 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 html,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: url(../image/background.jpg);
-  background-size: cover;
+  /* background: url(../image/background.jpg);
+  background-size: cover; */
+  background-color: #5eb7b7;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
-    height: 80px;
-    top:0;
-    display: flex;
-    position: sticky;
-    background: #fff;
-    background: url(../image/background.jpg);
-    background-position: bottom;
-    background-size: cover;
+  height: 80px;
+  width: 100%;
+  top: 0;
+  position: sticky;
+  z-index: 100;
+  position: absolute;
+  /* background-color: #5eb7b7; */
+  /* background: url(../image/background.jpg); */
 }
 
 .nav-bare {
-  margin: auto;
-  width: 50%;
-  min-width: 300px;
-  display: flex;
-  justify-content: space-between;
+  margin-top: 30px;
+  text-align: end;
 }
-.link, .link-active{
-   color: brown;
-   font-size: 1.3em;
-   text-decoration: none;
+.link {
+  color: gold;
+  font-size: 1.3em;
+  text-decoration: none;
+  margin-right: 30px;
+  padding: 5px 20px;
+  /* border: thin solid purple; */
+  background: #5eb7b7;
+  border-radius: 20px;
+  vertical-align: middle;
 }
-.link-active{
-    border-bottom: thick double;
-}
-.link:hover{
-    border-bottom: thick double;
+
+.link:hover {
+  color: #5eb7b7;
+  background: gold;
 }
