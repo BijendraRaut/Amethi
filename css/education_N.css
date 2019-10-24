@@ -1,0 +1,14 @@
+.main-education .section img{
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.section h2{
+  text-align: center;
+  text-decoration: underline;
+}
+.section h3{
+  text-decoration: underline;
+}
+.section .aviation{
+  margin-bottom: 2em;
+}
