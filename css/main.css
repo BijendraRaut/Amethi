@@ -26,18 +26,19 @@ body {
   text-align: end;
 }
 .link {
-  color: gold;
+  color: white;
   font-size: 1.3em;
   text-decoration: none;
   margin-right: 30px;
-  padding: 5px 20px;
-  /* border: thin solid purple; */
+  padding: 10px 20px;
   background: #5eb7b7;
-  border-radius: 20px;
+  box-shadow: 5px 5px #000;
   vertical-align: middle;
 }
 
 .link:hover {
-  color: #5eb7b7;
-  background: gold;
+ background: #5eb7b788
+}
+.main-industriy .section img{
+  width: 100%
 }

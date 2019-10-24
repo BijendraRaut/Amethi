@@ -4,7 +4,7 @@
 }
 .section-header {
   position: relative;
-  max-height: 90vh;
+  height: 90vh;
   overflow: hidden;
 }
 .section-header h1 {
@@ -16,6 +16,18 @@
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0%);
+}
+.section-header p{
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.5;
+  text-align: justify;
+  max-width: 700px;;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2em;
 }
 .section-header img {
   width: 100%;
@@ -31,18 +43,17 @@
 .section-description p span {
   font-weight: bold;
 }
-.main-home p {
+.section p {
   text-align: justify;
   line-height: 1.5;
   font-size: 18px;
   /* color: #444 */
 }
-.main-home p::first-letter {
+.section p::first-letter {
   font-size: 5em;
   float: left;
 }
-.section-description,
-.section-history, .footer {
+.section, .footer {
   padding: 2em;
   background: #96d1c7;
   margin: 2em;
