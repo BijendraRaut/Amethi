@@ -1,65 +1,50 @@
-.main-home {
-  padding: 0 5%;
-}
-.section-header {
-  height: 70vh;
-  background-image: url("../image/bjp.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1em 0;
-  /* box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5) */
-}
-.section-header h1 {
+
+
+.section-header .amethi {
   font-size: 5em;
-  color: gold;
-  text-shadow: 6px 0px 2px #000;
+  color: #ffd739;
+  text-shadow: 6px 0px 2px #444;
   letter-spacing: 0.5em;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
-.section-header {
-  margin: 5em 0;
-}
+
+
 .section-description img {
   width: 70%;
-  min-width: 300px;
+  min-width: 250px;
   float: right;
   margin: 0 0 0 1em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 .section-description p span {
   font-weight: bold;
 }
-.main-home p {
-  text-align: justify;
-  line-height: 1.5;
+
+.section-history {
+  background: #96d1c7;
 }
-.main-home p::first-letter {
-  font-size: 6em;
-  float: left;
-}
-.section-history{
-  margin: 5em 0;
-}
-.section-history h2{
+.section-history h2 {
   font-size: 2em;
   text-decoration: underline;
   text-align: center;
 }
-.section-history img{
+.section-history img {
   max-width: 100%;
   float: left;
   margin-right: 1em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
-@media (max-width: 800px){
-  .section-header h1{
+
+@media (max-width: 800px) {
+  .section-header .amethi {
     font-size: 4em;
   }
 }
-@media (max-width: 600px){
-  .section-header h1{
+@media (max-width: 600px) {
+  .section-header .amethi {
     font-size: 2em;
   }
 }
-
