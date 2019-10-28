@@ -1,15 +1,15 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background: url(../image/background.jpg);
-  background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(../image/background.jpg);
+    background-size: cover;
 }
 
 .header {
     height: 80px;
-    top:0;
+    top: 0;
     display: flex;
     position: sticky;
     background: #fff;
@@ -19,20 +19,34 @@ body {
 }
 
 .nav-bare {
-  margin: auto;
-  width: 50%;
-  min-width: 300px;
-  display: flex;
-  justify-content: space-between;
+    margin: auto;
+    width: 50%;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
-.link, .link-active{
-   color: brown;
-   font-size: 1.3em;
-   text-decoration: none;
+
+.link,
+.link-active {
+    color: brown;
+    font-size: 1.3em;
+    text-decoration: none;
 }
-.link-active{
+
+.link-active {
     border-bottom: thick double;
 }
-.link:hover{
+
+.link:hover {
     border-bottom: thick double;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
 }

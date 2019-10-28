@@ -1,67 +1,70 @@
-body{
-	background: url(../image/background.jpg);
-	background-size: cover;
+body {
+    background: url(../image/background.jpg);
+    background-size: cover;
 }
 
-.header__bg h1{ 
-	font-weight: bold;
-	color: darkorange;
-}
-p{	margin:40px;
-	text-align: center;
-	font-size: 18px;
-	font-family:Grenze;
-	
+.header__bg h1 {
+    font-weight: bold;
+    color: darkorange;
 }
 
-span{
-		font-size: 1.5em;
-	}
-img{
-	max-width: 100%;
-	height: auto;
-	margin: 30px auto;
-	display: block;
+p {
+    margin: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Grenze;
 }
 
-ul h2{
-	text-align: center;
-	position: relative;
-	color: red;
-	font-size:30px;
-	text-decoration: underline;
-}
-.anu{
-	
-	}
-.abhi{
-	
-}
-ol{
-	font-size: 20px;
-
-}
-h3{
-	color: #0F7CA2;
-	font-size: 30px;
-	text-align: center;
-
+span {
+    font-size: 1.5em;
 }
 
-
-ol{
-
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto;
+    display: block;
 }
 
-.singh{
-	margin-bottom:20px;
-	padding-bottom:50px;
+ul h2 {
+    text-align: center;
+    position: relative;
+    color: red;
+    font-size: 30px;
+    text-decoration: underline;
 }
-.heading{
-	left:50px;
+
+.anu {}
+
+.abhi {}
+
+ol {
+    font-size: 20px;
 }
 
+h3 {
+    color: #0F7CA2;
+    font-size: 30px;
+    text-align: center;
+}
 
+ol {}
 
+.singh {
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
 
+.heading {
+    left: 50px;
+}
 
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
