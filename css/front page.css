@@ -1,52 +1,59 @@
-body{
-	background: url(../image/background.jpg);
 
+body {
+	background-image: url(../image/background.jpg);
 	background-size: cover;
 }
 
-.header__bg h1{ 
-	font-weight: bold;
-	color: darkorange;
-}
-p{	margin:40px;
-
+p {
+	margin:40px;
 	text-align: center;
 	font-size: 18px;
-	font-family:Grenze;
+	font-family: Grenze;
 }
-span{
+
+span {
 	font-size: 1.5em;
 }
-img{
+
+img {
+
 	max-width: 100%;
 	height: auto;
 	margin: 30px auto;
 	display: block;
 }
-ul h2{
+
+
+ul h2 {
+
 	text-align: center;
 	position: relative;
 	color: red;
 	font-size:30px;
 	text-decoration: underline;
 }
-ol{
+
+
+ol {
+
 	font-size: 20px;
 }
-h3{
+
+h3 {
 	color: #0F7CA2;
 	font-size: 30px;
 	text-align: center;
 }
+
 .singh{
 	margin-bottom:20px;
 	padding-bottom:50px;
 }
 .heading{
 	left:50px;
+
 }
 
-
-
-
-
+.heading {
+	left: 50px;
+}
