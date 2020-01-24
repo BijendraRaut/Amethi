@@ -1,3 +1,4 @@
+
 body {
 	background-image: url(../image/background.jpg);
 	background-size: cover;
@@ -15,13 +16,16 @@ span {
 }
 
 img {
+
 	max-width: 100%;
 	height: auto;
 	margin: 30px auto;
 	display: block;
 }
 
+
 ul h2 {
+
 	text-align: center;
 	position: relative;
 	color: red;
@@ -29,7 +33,9 @@ ul h2 {
 	text-decoration: underline;
 }
 
+
 ol {
+
 	font-size: 20px;
 }
 
@@ -39,14 +45,13 @@ h3 {
 	text-align: center;
 }
 
-.header__bg h1 { 
-	font-weight: bold;
-	color: darkorange;
+.singh{
+	margin-bottom:20px;
+	padding-bottom:50px;
 }
+.heading{
+	left:50px;
 
-.singh {
-	margin-bottom: 20px;
-	padding-bottom: 50px;
 }
 
 .heading {
