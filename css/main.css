@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url(../image/background.jpg);
+  background-size: cover;
+}
+
+.header {
+    height: 80px;
+    top:0;
+    display: flex;
+    position: sticky;
+    background: #fff;
+    background: url(../image/background.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.nav-bare {
+  margin: auto;
+  width: 50%;
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.link, .link-active{
+   color: brown;
+   font-size: 1.3em;
+   text-decoration: none;
+}
+.link-active{
+    border-bottom: thick double;
+}
+.link:hover{
+    border-bottom: thick double;
+}

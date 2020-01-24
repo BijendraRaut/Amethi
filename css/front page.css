@@ -1,3 +1,4 @@
+
 body{
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -26,52 +27,49 @@ h1{ color: darkorange;
 	padding-top: 240px;
 	margin-top: 1px;
 	background:url(../image/bjp.jpg);
+
 	background-size: cover;
 }
-p{	margin:40px;
+
+p {
+	margin:40px;
 	text-align: center;
 	font-size: 18px;
-	font-family:Grenze;
-	
+	font-family: Grenze;
 }
 
-span{
-		font-size: 1.5em;
-	}
-img{
+span {
+	font-size: 1.5em;
+}
+
+img {
+
 	max-width: 100%;
 	height: auto;
 	margin: 30px auto;
 	display: block;
 }
 
-ul h2{
+
+ul h2 {
+
 	text-align: center;
 	position: relative;
 	color: red;
 	font-size:30px;
 	text-decoration: underline;
 }
-.anu{
-	
-	}
-.abhi{
-	
-}
-ol{
-	font-size: 20px;
 
+
+ol {
+
+	font-size: 20px;
 }
-h3{
+
+h3 {
 	color: #0F7CA2;
 	font-size: 30px;
 	text-align: center;
-
-}
-
-
-ol{
-
 }
 
 .singh{
@@ -80,9 +78,9 @@ ol{
 }
 .heading{
 	left:50px;
+
 }
 
-
-
-
-
+.heading {
+	left: 50px;
+}
